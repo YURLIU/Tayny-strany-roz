@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Таємниці країни троянд</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <div id="start-screen">
+            <h1>🌹 Таємниці країни троянд 🌹</h1>
+            <p>
+                Перевір свої знання про Болгарію та дізнайся,
+                наскільки уважним мандрівником ти був!
+            </p>
+
+            <button id="start-btn">
+                Почати вікторину
+            </button>
+        </div>
+
+        <div id="quiz-screen" class="hidden">
+
+            <div id="progress"></div>
+
+            <h2 id="question"></h2>
+
+            <div id="answers"></div>
+
+            <p id="feedback"></p>
+
+            <button id="next-btn" class="hidden">
+                Далі →
+            </button>
+
+        </div>
+
+        <div id="result-screen" class="hidden">
+
+            <h2>Вікторину завершено!</h2>
+
+            <p id="score"></p>
+
+            <p id="message"></p>
+
+            <button onclick="location.reload()">
+                Пройти ще раз
+            </button>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
