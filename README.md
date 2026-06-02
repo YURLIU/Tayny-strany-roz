@@ -1,0 +1,1 @@
+# Tayny-strany-roz
